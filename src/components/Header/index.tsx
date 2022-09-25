@@ -1,7 +1,7 @@
-import "../../sass/header.scss";
-import { FiMenu } from "react-icons/fi";
-import logo from "../../assets/logo.png";
-import { useState } from "react";
+import '../../sass/header.scss';
+import { FiMenu } from 'react-icons/fi';
+import logo from '../../assets/logo.png';
+import { useState } from 'react';
 
 const Header = () => {
   const [toggle, setToggle] = useState<boolean>(false);
@@ -10,36 +10,36 @@ const Header = () => {
     console.log(toggle);
   };
   return (
-    <div className="navbar">
-      <div className="navbar-main">
-        <img src={logo} alt={logo} className="navbar-logo" />
-        <div className="navbar-desktop">
-          <a href="#" className="navbar-link">
+    <div className='navbar'>
+      <div className='navbar-main'>
+        <img src={logo} alt={logo} className='navbar-logo' />
+        <div className='navbar-desktop'>
+          <a href='#' className='navbar-link'>
             product
           </a>
-          <a href="#" className="navbar-link">
+          <a href='#' className='navbar-link'>
             faq
           </a>
-          <a href="#" className="navbar-link">
+          <a href='#' className='navbar-link'>
             contact
           </a>
         </div>
-        <FiMenu className="navbar-mobile" onClick={handleToggleMenu} />
+        <FiMenu className='navbar-mobile' onClick={handleToggleMenu} />
       </div>
-      <div className={`sub-menu ${toggle ? 'active': ''}`}>
-        <ul className="sub-menu__container">
-          <li >
-            <a href="#" className="navbar-link">
+      <div className={`sub-menu ${toggle ? 'active' : ''}`}>
+        <ul className='sub-menu__container'>
+          <li>
+            <a href='#' className='navbar-link'>
               home
             </a>
           </li>
           <li>
-            <a href="#" className="navbar-link">
+            <a href='#' className='navbar-link'>
               faq
             </a>
           </li>
           <li>
-            <a href="#" className="navbar-link">
+            <a href='#' className='navbar-link'>
               contact
             </a>
           </li>
