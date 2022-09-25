@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/HaiDang1501/food_delivery_app.git/static/css/main.aef15d37.css",
-    "main.js": "/HaiDang1501/food_delivery_app.git/static/js/main.ccb4ef5c.js",
-    "static/js/787.94c44e5c.chunk.js": "/HaiDang1501/food_delivery_app.git/static/js/787.94c44e5c.chunk.js",
-    "static/media/background.png": "/HaiDang1501/food_delivery_app.git/static/media/background.755f826548b56ec254d0.png",
-    "static/media/background_footer.png": "/HaiDang1501/food_delivery_app.git/static/media/background_footer.db60123d47b394a1469a.png",
-    "static/media/smartphone1.png": "/HaiDang1501/food_delivery_app.git/static/media/smartphone1.c3f981a68ae4d15f0dce.png",
-    "static/media/smartphone_explore.png": "/HaiDang1501/food_delivery_app.git/static/media/smartphone_explore.320b291a401d1b1a9f39.png",
-    "static/media/smartphone2.png": "/HaiDang1501/food_delivery_app.git/static/media/smartphone2.70fd208a7e858f6def2d.png",
-    "static/media/smartphone_checkout.png": "/HaiDang1501/food_delivery_app.git/static/media/smartphone_checkout.f6b1c78f4ee46413517a.png",
-    "static/media/smartphone_regis.png": "/HaiDang1501/food_delivery_app.git/static/media/smartphone_regis.ef1cb70e06308ba4572b.png",
-    "index.html": "/HaiDang1501/food_delivery_app.git/index.html",
-    "main.aef15d37.css.map": "/HaiDang1501/food_delivery_app.git/static/css/main.aef15d37.css.map",
-    "main.ccb4ef5c.js.map": "/HaiDang1501/food_delivery_app.git/static/js/main.ccb4ef5c.js.map",
-    "787.94c44e5c.chunk.js.map": "/HaiDang1501/food_delivery_app.git/static/js/787.94c44e5c.chunk.js.map"
+    "main.css": "/food_delivery_app/static/css/main.242b7621.css",
+    "main.js": "/food_delivery_app/static/js/main.e3df801c.js",
+    "static/js/787.94c44e5c.chunk.js": "/food_delivery_app/static/js/787.94c44e5c.chunk.js",
+    "static/media/background.png": "/food_delivery_app/static/media/background.755f826548b56ec254d0.png",
+    "static/media/background_footer.png": "/food_delivery_app/static/media/background_footer.db60123d47b394a1469a.png",
+    "static/media/smartphone1.png": "/food_delivery_app/static/media/smartphone1.c3f981a68ae4d15f0dce.png",
+    "static/media/smartphone_explore.png": "/food_delivery_app/static/media/smartphone_explore.320b291a401d1b1a9f39.png",
+    "static/media/smartphone2.png": "/food_delivery_app/static/media/smartphone2.70fd208a7e858f6def2d.png",
+    "static/media/smartphone_checkout.png": "/food_delivery_app/static/media/smartphone_checkout.f6b1c78f4ee46413517a.png",
+    "static/media/smartphone_regis.png": "/food_delivery_app/static/media/smartphone_regis.ef1cb70e06308ba4572b.png",
+    "index.html": "/food_delivery_app/index.html",
+    "main.242b7621.css.map": "/food_delivery_app/static/css/main.242b7621.css.map",
+    "main.e3df801c.js.map": "/food_delivery_app/static/js/main.e3df801c.js.map",
+    "787.94c44e5c.chunk.js.map": "/food_delivery_app/static/js/787.94c44e5c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aef15d37.css",
-    "static/js/main.ccb4ef5c.js"
+    "static/css/main.242b7621.css",
+    "static/js/main.e3df801c.js"
   ]
 }
