@@ -1,0 +1,166 @@
+@import "variables";
+.intro {
+  background: #fafafa;
+  height: 778px;
+  width: 100%;
+  display: flex;
+    flex-direction: column;
+  .intro-h1 {
+    color: $textColorPrimary;
+    font-size: 2.25rem;
+    padding: 0 1rem;
+  }
+  .intro-h2 {
+    color: $textColorSecondary;
+    padding-top: 3.5rem;
+    font-size: 1rem;
+  }
+  .intro-h2__sub {
+    color: $textColorSecondary;
+    letter-spacing: 0.2px;
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding: 2rem 1rem;
+  }
+  .btn-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    .btn-intro {
+      width: 236px;
+      height: 68px;
+      border-radius: 30px;
+      font-weight: 700;
+      font-size: 1.5rem;
+      border: none;
+      color: $textColorWhite;
+      &:nth-child(1) {
+        background-color: $colorBtn;
+        box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+        transition: all ease .5s;
+          &:hover{
+            transform: scale(1.1);
+            background: $colorBtnHover;
+          }
+      }
+      &:nth-child(2) {
+        background: none;
+        border: 1px solid $colorBtn;
+        color: $textColorOrange;
+        transition: all ease .5s;
+          &:hover{
+            transform: scale(1.1);
+            background-color: rgba(173, 171, 171, 0.4);
+          }
+      }
+    }
+  }
+}
+.intro-phone {
+  position: relative;
+  bottom: 10rem;
+  .intro-phone__item {
+    &:nth-child(1) {
+      filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21));
+      position: relative;
+      left: 1.5rem;
+    }
+  }
+}
+@media screen and (min-width: 1024px) {
+  .intro {
+    background: linear-gradient(
+        0deg,
+        rgba(23, 16, 16, 0.6),
+        rgba(23, 16, 16, 0.6)
+      ),
+      url(../assets/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 619px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    .intro-h1 {
+      font-size: 58px;
+      color: $textColorWhite;
+      font-weight: 700;
+      letter-spacing: 0.2px;
+      padding: 0 10rem;
+    }
+    .intro-h2 {
+      font-size: 1.5rem;
+      color: $textColorWhite;
+      margin: 0;
+      padding-top: 5rem;
+      font-weight: 700;
+      letter-spacing: 0.1px;
+    }
+    .intro-h2__sub {
+      font-size: 1.5rem;
+      color: $textColorWhite;
+      margin: 0;
+      letter-spacing: 0.2px;
+      font-weight: 300;
+      padding: 0;
+    }
+    .btn-wrapper {
+      width: 30rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-direction: row;
+      margin: auto;
+      padding: 3rem 0;
+      .btn-intro {
+        width: 236px;
+        height: 68px;
+        border-radius: 30px;
+        font-weight: 700;
+        font-size: 1.5rem;
+        border: none;
+        color: $textColorWhite;
+        cursor: pointer;
+        &:nth-child(1) {
+          background-color: $colorBtn;
+          box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+          transition: all ease .5s;
+          &:hover{
+            transform: scale(1.1);
+            background: $colorBtnHover;
+          }
+        }
+        &:nth-child(2) {
+          background: none;
+          border: 1px solid $textColorWhite;
+          color: $textColorWhite;
+          transition: all ease .5s;
+          &:hover{
+            transform: scale(1.1);
+            background-color: hsla(0,0%,47%,.4);
+          }
+        }
+
+      }
+    }
+  }
+  .intro-phone {
+    padding-bottom: 8rem;
+    padding-top: 0;
+    position: relative;
+    bottom: 5rem;
+    .intro-phone__item {
+      &:nth-child(1) {
+        filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21));
+        position: relative;
+        left: 1.5rem;
+      }
+    }
+  }
+  .intro-line {
+    border: 3px solid #e4e4e4;
+    width: 70%;
+    margin: 1rem auto;
+  }
+}

@@ -1,0 +1,122 @@
+@import "variables";
+
+.download {
+  height: 570px;
+  color: $textColorWhite;
+  background: #252b42;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  padding: 0 4rem;
+  .download-title {
+    font-weight: 700;
+    font-size: 2.5rem;
+    letter-spacing: 0.2px;
+    margin-bottom: 0;
+    padding: 7.5rem 0.5rem 0;
+  }
+  .download-desc__desktop {
+    display: none;
+  }
+  .download-desc__mobile {
+    font-weight: 500;
+    font-size: 1.5rem;
+    letter-spacing: 0.2px;
+    padding: 0 1rem 0;
+    display: initial;
+  }
+  .download-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 2.5rem auto;
+    gap: 1rem;
+    .download-btn {
+      color: $textColorWhite;
+      font-size: 1rem;
+      font-weight: 700;
+      height: 64px;
+      border-radius: 10px;
+      cursor: pointer;
+
+      &:nth-child(1) {
+        background: $colorBtn;
+        border: none;
+        width: 142px;
+      }
+      &:nth-child(2) {
+        border: 1px solid $textColorWhite;
+        background: none;
+        width: 172px;
+      }
+    }
+  }
+}
+@media screen and (min-width: 1024px) {
+  .download {
+    height: 516px;
+    width: 100%;
+    color: $textColorWhite;
+    background: linear-gradient(
+        0deg,
+        rgba(37, 43, 66, 0.4),
+        rgba(37, 43, 66, 0.4)
+      ),
+      url(../assets/background_footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    .download-title {
+      font-weight: 700;
+      font-size: 2.5rem;
+      letter-spacing: 0.2px;
+      padding-top: 7.5rem;
+      margin-bottom: 0;
+    }
+    .download-desc__desktop {
+      font-weight: 500;
+      font-size: 1.5rem;
+      letter-spacing: 0.2px;
+      display: initial;
+    }
+    .download-desc__mobile {
+      display: none;
+    }
+    .download-wrapper {
+      display: flex;
+      justify-content: center;
+      width: 45rem;
+      margin: 3rem auto;
+      gap: 1rem;
+      .download-btn {
+        color: $textColorWhite;
+        font-size: 1rem;
+        font-weight: 700;
+        height: 64px;
+        border-radius: 10px;
+        cursor: pointer;
+        &:nth-child(1) {
+          background: $colorBtn;
+          width: 142px;
+          border: none;
+          transition: all ease 0.5s;
+          &:hover {
+            transform: scale(1.1);
+            background: $colorBtnHover;
+          }
+        }
+        &:nth-child(2) {
+          width: 170px;
+          border: 1px solid $textColorWhite;
+          background: none;
+          transition: all ease .5s;
+          &:hover{
+            transform: scale(1.1);
+            background-color: rgba(173, 171, 171, 0.4);
+          }
+        }
+      }
+    }
+  }
+}
